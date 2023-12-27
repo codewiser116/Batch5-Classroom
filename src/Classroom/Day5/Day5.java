@@ -2,6 +2,10 @@ package Classroom.Day5;
 
 public class Day5 {
     public static void main(String[] args) {
+        int numberTwo = 10;
+
+
+
         // The following code will print: Hello World 20235!
         System.out.println("Hello " + " World " + 2023 + 5 + "!" );
 

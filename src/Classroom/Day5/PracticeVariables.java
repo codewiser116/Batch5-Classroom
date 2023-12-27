@@ -4,7 +4,6 @@ public class PracticeVariables {
 
     public static void main(String[] args) {
 
-
         // 1. Hours conversion
         // 1 hours = 60 min * 60 sec = 3600
         // CMD + / or CTRL + /
