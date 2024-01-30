@@ -8,7 +8,6 @@ public class Library {
         Scanner scanner = new Scanner(System.in);
         String[] bookTitles = {"Java Programming", "Python Basics", "Algorithms 101"};
         int[] availableCopies = {5,2,8};
-
     }
 
     public static void displayBooks(String[] bookTitles, int[] availableCopies){

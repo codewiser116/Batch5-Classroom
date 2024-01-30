@@ -8,18 +8,21 @@ public class Main {
 //        int a = 20;
 //        assignNewValue(a);
 //        System.out.println("Main - " + a);
-        String[] bookTitles = {"Java Programming", "Python Basics", "Algorithms 101"};
-        int[] availableCopies = {5,2,8};
-        String book = "Javascript";
-        for (int i = 0; i < bookTitles.length; i++) {
-            if (bookTitles[i].contains(book)) {
-                availableCopies[i]-=1;
-                System.out.println("successfully borrowed a book");
+        int[] arr = {1,2,3,4,5};
+        int n = 44;
+        boolean found = false;
+
+        for (int i = 0; i < arr.length; i++) {
+            if(arr[i] == n){
+                found = true;
+                System.out.println(true);
+                break;
             }
         }
-        System.out.println(Arrays.toString(bookTitles));
-        System.out.println(Arrays.toString(availableCopies));
-        //
+
+        if(!found){
+            System.out.println("Number doesn't exist");
+        }
     }
 
     public static void assignNewValue(int a){
