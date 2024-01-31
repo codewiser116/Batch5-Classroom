@@ -2,13 +2,13 @@ package Classroom.Day23;
 
 public class PracticeTasks {
     public static void main(String[] args) {
+
 //        int[] array = {1,2,9,4,5};
 //        int n = 9;
 //        System.out.println(findElement(array, 9));
 //        printStr("f");
 //        validPassword("hellobatch5");
-        int[] array = {1,2,55,12,14,13,6,7,99};
-        findSumUntil13(array);
+        System.out.println("Hello");
     }
 
     public static boolean findElement(int[] array, int n){
@@ -43,4 +43,5 @@ public class PracticeTasks {
         }
         System.out.println(sum);
     }
+
 }
