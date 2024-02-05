@@ -6,6 +6,12 @@ public class Animal {
     int age;
     String color;
 
+    public Animal(String name, int age, String color){
+        this.name = name; // assigns
+        this.age = age;
+        this.color = color;
+    }
+
     public void animalInfo(){
         System.out.println("Name: " + name);
         System.out.println("Age: " + age);
@@ -22,25 +28,10 @@ public class Animal {
     }
 
     public static void main(String[] args) {
-        Animal animal1 = new Animal();
-        animal1.name = "Lion";
-        animal1.age = 5;
-        animal1.color = "black";
-
-        Animal animal2 = new Animal();
-        animal2.name = "Python";
-        animal2.age = 10;
-        animal2.color = "green";
-
-        Animal animal3 = new Animal();
-        animal3.name = "Dog";
-        animal3.age = 4;
-        animal3.color = "white";
-
-        Animal animal4 = new Animal();
-        animal4.name = "horse";
-        animal4.age = 7;
-        animal4.color = "black";
+        Animal animal1 = new Animal("Lion",5, "black");
+        Animal animal2 = new Animal("Python", 10, "green");
+        Animal animal3 = new Animal("Dog", 4, "white");
+        Animal animal4 = new Animal("horse", 7, "black");
 
         animal1.animalInfo();
         animal1.eat();
