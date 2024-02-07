@@ -88,4 +88,5 @@ public class Main {
         System.out.println("Option 2. Display people");
         System.out.println("Option 3. Exit");
     }
+
 }
