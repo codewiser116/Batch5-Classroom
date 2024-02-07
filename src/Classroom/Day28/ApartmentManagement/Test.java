@@ -31,7 +31,7 @@ public class Test {
                 counter++;
             }
             else if(choice==2){
-                for(int i = 0; i < people.length; i++){
+                for(int i = 0; i < counter; i++){
                     System.out.println(people[i].name + " " + people[i].age + " " + people[i].gender);
                 }
             }
