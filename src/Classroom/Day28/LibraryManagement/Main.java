@@ -29,6 +29,10 @@ public class Main {
         student1.returnBook();
         student1.startReading(book4);
 
+        student3.returnBook();
+
+        library.displayBooks();
+
     }
 
 }

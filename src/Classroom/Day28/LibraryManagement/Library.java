@@ -20,6 +20,7 @@ public class Library {
             System.out.println(books[i].title);
             System.out.println(books[i].author);
             System.out.println(books[i].pages);
+            System.out.println(books[i].isAvailable);
             System.out.println("------------------");
         }
     }

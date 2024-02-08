@@ -33,6 +33,9 @@ public class Student {
             System.out.println(name + " successfully returned " + currentlyReading.title);
             currentlyReading = null;
         }
+        else{
+            System.out.println(name + " doesn't have a book to return!");
+        }
     }
 
 }
