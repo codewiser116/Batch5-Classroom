@@ -6,7 +6,7 @@ import java.util.Random;
 
 public class PracticeTasks {
     public static void main(String[] args) {
-        ArrayList<Integer> integerArrayList = new ArrayList<>(List.of(1,2,3,4,5,6));
+        ArrayList<Integer> integerArrayList = new ArrayList<>(List.of(1,2,3,4,5,6,7,8));
         // [1,2,3,4,5,6]
         // [1,2,10,3,4,10,5,6]
         System.out.println(add10(integerArrayList));
@@ -25,8 +25,8 @@ public class PracticeTasks {
         int size = list.size(); // 6
         for(int i = 0; i < size; i++){
             if(list.get(i) % 2 == 0){
-                list.add(i+1,10);
-                System.out.println(list);
+                list.add(i,10);
+                i++;
             }
         }
         return list;

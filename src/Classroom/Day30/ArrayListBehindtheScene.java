@@ -7,9 +7,6 @@ public class ArrayListBehindtheScene {
         // 0,1,2,3, 4,  5,  6,  7,   8,  9
         // 1,2,7,54,234,543,234,6432,7
         int[] arr = {1,2,7,54,234,543,234,6432,234,7};
-
-
-
         int number = 5;
         int[] arr1 = new int[arr.length+1]; // 0,0,0
         // To add numbers from the original array to new array
