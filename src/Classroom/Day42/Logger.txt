@@ -1,0 +1,18 @@
+can't divide by zero
+can't divide by zero
+can't divide by zero
+can't divide by zero
+2024-03-05T11:54:22.472995 can't divide by zero
+2024-03-05T11:57:17.864154 can't divide by zero
+2024-03-05T11:57:52.055368 can't divide by zero
+2024-03-05T11:57:53.935924 can't divide by zero
+2024-03-05T11:57:55.655302 can't divide by zero
+2024-03-05T11:57:57.272696 can't divide by zero
+2024-03-05T12:13:01.527616 can't divide by zero
+2024-03-05T12:16:53.621132 index out of bounds
+2024-03-05T12:30:09.754908 file wasn't found
+2024-03-05T12:31:36.718136 file wasn't found
+2024-03-05T12:38:35.891037 file wasn't found
+2024-03-05T12:42:55.508662 index out of bounds
+2024-03-05T12:42:57.448935 index out of bounds
+2024-03-05T12:42:58.635812 index out of bounds
