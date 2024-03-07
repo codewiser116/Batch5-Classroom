@@ -8,8 +8,8 @@ public class WriteFiles {
         String path =  "/Users/codewiseacademy/Desktop/Batch5/Classroom1/src/Classroom/Day43";
         path+="/"+"Text.txt";
 
-        try(FileWriter fw = new FileWriter(path,true)) {
-            fw.write("\nBatch5");
+        try(FileWriter fw = new FileWriter(path, true)) {
+            fw.write("Batch5+\n");
         }
         catch (IOException e) {
             throw new RuntimeException(e);

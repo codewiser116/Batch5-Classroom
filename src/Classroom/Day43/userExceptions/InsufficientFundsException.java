@@ -1,6 +1,8 @@
 package Classroom.Day43.userExceptions;
 
-public class InsufficientFundsException extends RuntimeException{
+import java.io.FileNotFoundException;
+
+public class InsufficientFundsException extends Exception {
     // Object
     // Throwable
     // Exception
